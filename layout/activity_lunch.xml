@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lunch">
+
+    <EditText
+        android:id="@+id/username10"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_shape"
+        android:backgroundTint="#EBECF0"
+        android:drawablePadding="8dp"
+        android:paddingLeft="25dp"
+
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <EditText
+        android:id="@+id/username7"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_shape"
+        android:backgroundTint="#EBECF0"
+        android:drawablePadding="8dp"
+        android:paddingLeft="25dp"
+
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <EditText
+        android:id="@+id/username9"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_shape"
+        android:backgroundTint="#EBECF0"
+        android:drawablePadding="8dp"
+        android:paddingLeft="25dp"
+
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <EditText
+        android:id="@+id/username8"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:background="@drawable/custom_shape"
+        android:backgroundTint="#EBECF0"
+        android:drawablePadding="8dp"
+        android:paddingLeft="25dp"
+
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="175dp"
+        android:layout_height="143dp"
+        app:srcCompat="@drawable/circle2"
+        tools:layout_editor_absoluteX="-45dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="192dp"
+        android:layout_height="116dp"
+        app:srcCompat="@drawable/circle1"
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="-14dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Verification"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <Button
+        android:id="@+id/loginButton3"
+        android:layout_width="344dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#7845D9"
+        android:text="submit"
+        android:textSize="18sp"
+        app:cornerRadius="20dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="We have sent OTP on your register mobile number                        +880 17******32"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="204dp"
+        android:layout_height="244dp"
+        app:srcCompat="@drawable/hand"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="259dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

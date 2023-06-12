@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".restaurant">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="277dp"
+            android:layout_marginTop="-10dp"
+
+            app:srcCompat="@drawable/banner"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="110dp"
+            android:layout_height="115dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-38dp"
+            app:srcCompat="@drawable/circle1"
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="-35dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="66dp"
+            android:layout_height="72dp"
+            app:srcCompat="@drawable/circle2"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="299dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="110dp"
+            app:srcCompat="@drawable/cirlce3"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="200dp"
+            android:layout_height="113dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="119dp"
+            app:srcCompat="@drawable/food5"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <ImageView
+
+            android:layout_width="299dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/cirlce3"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <ImageView
+
+            android:layout_width="200dp"
+            android:layout_height="113dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="210dp"
+            app:srcCompat="@drawable/man_circle2"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <ImageView
+
+            android:layout_width="43dp"
+            android:layout_height="106dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="90dp"
+            app:srcCompat="@drawable/line"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="1dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Morsalin Rifat"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="170dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chef"
+            android:textColor="#AA243F"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="198dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:layout_marginTop="300dp"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="166dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/food1"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="-75dp"
+
+                android:text="$120"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="260dp"
+
+                android:layout_marginTop="-50dp"
+                android:backgroundTint="#FF6584"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Order food"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                app:cornerRadius="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="40dp"
+
+                android:text="Hardee's Original Thickburger"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:layout_marginTop="550dp"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="166dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/food2"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="-75dp"
+
+                android:text="$100"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="260dp"
+
+                android:layout_marginTop="-50dp"
+                android:backgroundTint="#FF6584"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Order food"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                app:cornerRadius="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="40dp"
+
+                android:text="Panera Soup"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:layout_marginTop="800dp"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="166dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/food6"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="-75dp"
+
+                android:text="$140"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginLeft="260dp"
+
+                android:layout_marginTop="-50dp"
+                android:backgroundTint="#FF6584"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Order food"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                app:cornerRadius="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="40dp"
+
+                android:text="Dairy Queen Chicken Strip Basket"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

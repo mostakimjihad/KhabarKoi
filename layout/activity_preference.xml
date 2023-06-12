@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".preference">
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="324dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="69dp"
+        android:backgroundTint="#6C63FF"
+        android:text="Next"
+        android:textSize="25dp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kabab" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="263dp"
+        android:layout_height="172dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/house" />
+
+    <Button
+        android:id="@+id/friedRice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="29dp"
+        android:backgroundTint="#CAC7EE"
+        android:text="fried rice"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/beefRezela"
+        app:layout_constraintEnd_toStartOf="@+id/biriyani"
+        app:layout_constraintStart_toEndOf="@+id/burger" />
+
+    <Button
+        android:id="@+id/kacchi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CAC7EE"
+        android:text="kacchi"
+        android:textColor="#000000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/beefRezela"
+        app:layout_constraintEnd_toEndOf="@+id/burger"
+        app:layout_constraintStart_toStartOf="@+id/burger" />
+
+    <Button
+        android:id="@+id/burger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#CAC7EE"
+        android:text="Burger"
+        android:textColor="#000000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/friedRice"
+        app:layout_constraintEnd_toStartOf="@+id/friedRice"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/kabab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="195dp"
+        android:backgroundTint="#CAC7EE"
+        android:text="kabab"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/kacchi" />
+
+    <Button
+        android:id="@+id/beefRezela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="22dp"
+        android:backgroundTint="#CAC7EE"
+        android:text="beef rezela"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/kabab"
+        app:layout_constraintStart_toEndOf="@+id/kacchi" />
+
+    <Button
+        android:id="@+id/biriyani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:backgroundTint="#CAC7EE"
+        android:text="biriyani"
+        android:textColor="#000000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/friedRice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/friedRice" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="119dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Select your food preference"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/burger"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="133dp"
+        android:layout_height="65dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circle1" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="93dp"
+        app:srcCompat="@drawable/circle2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.chip.ChipGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

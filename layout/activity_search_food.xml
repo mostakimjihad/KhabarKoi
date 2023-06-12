@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".searchFood">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="88dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/demo_profile"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="-55dp"
+            android:text="Itachi Uchiha"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <ImageView
+
+            android:layout_width="34dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="-35dp"
+            app:srcCompat="@drawable/menu2"
+
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="130dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#F7F7F7"
+                android:hint="biriyani"
+
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/searchFoodButton"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="235dp"
+                android:layout_marginTop="-60dp"
+                android:backgroundTint="#6C63FF"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Search food"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                app:cornerRadius="7dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="166dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/resturant1"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="-100dp"
+
+                android:text="Uttara Biriyani House"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="208dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="231dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="252dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="3dp"
+
+                android:text="sector-3, road-12, uttara, Dhaka\n"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="189dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="166dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/resturant1"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="-100dp"
+
+                android:text="Stick House"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="208dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="231dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="3dp"
+
+                android:text="sector-4, road-10, uttara, Dhaka\n"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="189dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="166dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/resturant1"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="-100dp"
+
+                android:text="Coffee House"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="3dp"
+
+                android:text="sector- 3, road-12, uttara, Dhaka\n"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="189dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="166dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/resturant1"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="-100dp"
+
+                android:text="Mr ghosto"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="-17dp"
+                app:srcCompat="@drawable/star"
+                tools:layout_editor_absoluteX="-26dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="3dp"
+
+                android:text="sector-4, road-15, uttara, Dhaka\n"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="that's all"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</ScrollView>

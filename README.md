@@ -26,7 +26,6 @@ If it does not shows your current location.
 
 ## Authors
 
-Contributors names and contact info
 Mostakim Jihad  
 mostakimjihad652001@gmail.com
 
